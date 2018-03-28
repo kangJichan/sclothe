@@ -1,0 +1,154 @@
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.techwork.kjc.sclothe.BoardActivity1"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techwork.kjc.sclothe.BoardActivity1"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:id="@+id/mainLay"
+    >
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.1"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/colorMainYellow"
+        >
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:gravity="center"
+
+            >
+            <LinearLayout
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_weight="0.7"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/selbtn1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="@color/colorMainYellow"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="현재옷장"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite" />
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.02"
+                    android:background="@color/colorMainYellow"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="@drawable/textline"
+                    android:gravity="center"
+                    android:text="Best"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorMainYellow3"
+                    android:id="@+id/selbtn2"
+                    android:onClick="onClick"
+                    />
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.02"
+                    android:background="@color/colorMainYellow"
+                    />
+
+                <TextView
+                    android:id="@+id/selbtn3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="@drawable/textline"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="전체옷"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorMainYellow3" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleview1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9" />
+    <RelativeLayout
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        >
+    </RelativeLayout>
+
+</LinearLayout>
+<RelativeLayout android:layout_height="60dp"
+    android:layout_width="match_parent"
+    android:gravity="right"
+    android:layout_alignParentBottom="true"
+    >
+    <LinearLayout
+        android:layout_height="60dp"
+        android:layout_width="60dp"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:orientation="vertical"
+            android:weightSum="1"
+            >
+
+            <ImageView
+                android:id="@+id/plus_but"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8"
+                android:onClick="onClick"
+                android:src="@drawable/plus_button"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:layout_toLeftOf="@+id/linearLayout"
+        android:layout_toStartOf="@+id/linearLayout"
+        android:onClick="onClick"
+        android:text="LOGOUT" />
+
+</RelativeLayout>
+
+</RelativeLayout>

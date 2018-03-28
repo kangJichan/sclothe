@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "734644207115",
+    "firebase_url": "https://sclothe-c9cf8.firebaseio.com",
+    "project_id": "sclothe-c9cf8",
+    "storage_bucket": "sclothe-c9cf8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734644207115:android:fd19c3b7f817f5f4",
+        "android_client_info": {
+          "package_name": "com.techwork.kjc.sclothe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734644207115-69vffouf7jq43loao8tg00lv3vrkkam3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techwork.kjc.sclothe",
+            "certificate_hash": "7e27e2b87d460d96202b3c121c552fedcaf033f8"
+          }
+        },
+        {
+          "client_id": "734644207115-dargunjdnd1fl5smg0mr52m0pm8jdfdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnD15VWHjtj3kBwuD2Io5JEKOxoAKWtkU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734644207115-dargunjdnd1fl5smg0mr52m0pm8jdfdq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
